@@ -1,3 +1,7 @@
+"""
+Script para cambiar el nombre de los archivos generados con sra-tools. Toma archivos con formato SRAxxxxxx_N.fastq y los cambia a SRAxxxxxx_RN.fastq
+"""
+
 import os
 from shutil import rmtree
 
